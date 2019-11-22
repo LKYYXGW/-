@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/base.min.css">
+    <link rel="stylesheet" href="css/iconfont.min.css">
+    <link rel="stylesheet" href="css/shopping.min.css">
+    <link rel="stylesheet" href="css/iconfont2.min.css">
+    <script src = "js/require.js" async = "true" defer data-main = "js/shopping"></script>
+</head>
+<body>
+        <div id="header">
+            <ul id = "ul1">
+                <li><a href="">TCL新闻</a></li>
+                <li ><a href="">企业采购</a></li>
+                <li><a href="">经销商之家</a></li>
+                <li><a href="">用户体验中心</a></li>
+                <li><a href="">铁粉社区</a></li>
+                <li><a href="">人才招聘</a></li>
+            </ul>
+            <ul id = "ul2">
+                    <li ><a id = "arise" href="">微信商城</a></li>
+                    <li id="dl"><a href="">购物车<span>(</span><span id = "dlspan">0</span><span>)</span></a></li>
+                    <li><a href="">注册</a></li>
+                    <li><a id = "a1" href="">登录</a></li>     
+            </ul>
+            <div id = "header-RQ">
+                <img src="http://www.tcl.com/app/images/wechat.jpg" alt="">
+                <div class="div1">
+                        <p class="p1">
+                                &nbsp;&nbsp;关注公众号<br>
+                                一键下单购买
+                            </p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id = "layer">
+                <a href="http://www.tcl.com/"><img src="images/tcllogo/0019.png" alt=""></a>
+                <span>我的购物车</span>
+        </div>
+<!-- 购物车内的主数据 -->
+        <div id = "details">
+<!-- 主数据内部第一行 -->
+            <div id = "first">
+                <div id = "first1">
+                    <span><i class = "iconfont">&#xe677;</i>全选</span>
+                    <span>商品信息</span>
+                    <span>单价</span>
+                    <span>数量</span>
+                    <span>小计</span>
+                    <span>操作</span>
+                </div>
+            </div>
+<!-- 加入购物车内的主要商品 -->
+            <div id = "hide">
+                <!-- <div class = "commodity">
+                    <div> <i class = "iconfont">&#xe677;</i></div>
+                    <div><img src="http://img.mall.tcl.com/dev1/0/000/511/0000511574.fid" alt=""></div>
+                    <div>XESS 65A100T 65英寸 新造型美学 浮窗全场景TV</div>
+                    <div>19999.00元</div>
+                    <div>
+                        <span>-</span>
+                        <span>1</span>
+                        <span>+</span>
+                    </div>
+                    <div>19999.00元</div>
+                    <div><i class = "iconfont">&#xe665;</i><i class = "iconfont">&#xe63a;</i></div>
+                </div> -->
+            </div>
+<!-- 购物车主数据底部 -->
+            <div id = "base">
+                <div id = "baseinside">
+                    <div>继续购物&gt;&gt;
+                        <button id = "empty">清空购物车</button>
+                    </div>
+                    <div>
+                        <span>共1件商品 已选择0件</span>
+                        <span>合计(不含运费)&nbsp;:</span>
+                        <span><em id = "aggregate">0.00</em>元</span>
+                        <button>去结算</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+</html>

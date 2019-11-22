@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表页</title>
+    <link rel="stylesheet" href="css/catalogue.min.css">
+    <link rel="stylesheet" href="css/base.min.css">
+    <link rel="stylesheet" href="css/iconfont.min.css">
+    <script src = "js/require.js" async = "true" defer data-main = "js/catalogue"></script>
+</head>
+<body style = "background:#f1f1f1">
+     <!-- 头部导航 -->
+     <div id="header">
+        <ul id = "ul1">
+            <li><a href="">TCL新闻</a></li>
+            <li ><a href="">企业采购</a></li>
+            <li><a href="">经销商之家</a></li>
+            <li><a href="">用户体验中心</a></li>
+            <li><a href="">铁粉社区</a></li>
+            <li><a href="">人才招聘</a></li>
+        </ul>
+        <ul id = "ul2">
+                <li ><a id = "arise" href="">微信商城</a></li>
+                <li id="dl"><a href="shopping.html">购物车(0)</a></li>
+                <li><a href="">注册</a></li>
+                <li><a id = "a1" href="">登录</a></li>     
+        </ul>
+        <div id = "header-RQ">
+            <img src="http://www.tcl.com/app/images/wechat.jpg" alt="">
+            <div class="div1">
+                    <p class="p1">
+                        &nbsp;&nbsp;关注公众号<br>
+                        一键下单购买
+                    </p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- 商品导航 -->
+    <div id = "navigation">
+        
+        <a href="http://www.tcl.com/"><img src="images/tcllogo/0019.png" alt=""></a>
+        <!-- //导航栏左侧 -->
+        <ul id = "navigationul1">
+            <div id = "Under"></div>
+            <!-- <li class = "start">
+                <div class = "startdiv">
+                    <ul class = "startul">
+                        <li><img src="http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3TWALH3kAADTuHJx2RM918.jpg" alt=""></li>
+                        <li>XISJF你是我画的呢换上</li>
+                        <li>1900.00元</li>
+                    </ul>
+                    <ul class = "startul">
+                        <li><img src="http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3TWALH3kAADTuHJx2RM918.jpg" alt=""></li>
+                        <li>XISJF你是我画的呢换上</li>
+                        <li>1900.00元</li>
+                    </ul>
+                </div>
+            </li> -->
+
+        </ul>
+<!-- 导航栏右侧 -->
+        <ul id = "navigationul2">
+            <li ><span>|</span><a id = "leftB" href="">服务</a></li>
+            <li><a href="">视频教程</a></li>
+            <li><a href="">XESS门店</a></li>
+            <li><a href="">积分兑换</a></li>
+            <li id = "query">
+                <input type="text" placeholder="领劵立减">
+                <i class = "iconfont icon-fangdajing"></i> 
+            </li>
+        </ul>
+
+    </div>
+
+<!-- 淡入淡出轮播图 -->
+    <div id = "slideshow">
+        <ul id = "slideshowul">
+            <!-- <li class = "slideshowli"><img src="http://s0.mall.tcl.com/group1/M00/05/BE/Ckgbll0wGnGABZZGAAaj-vCYOp8828.jpg" alt=""></li> -->
+            
+        </ul>
+        <!-- 轮播图上面的按钮，来控制轮播图的移动 -->
+        <div id = "select">
+                <span class = "active"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+        </div>
+    </div>
+
+<!-- 商品选择范围 -->
+    <div id = "characteristic">
+        <div id = "particulars">
+            <div id = "particulars1">
+                <strong>根据&nbsp;价格选择</strong>
+                <span class = "possess">全部</span>
+                <ul class = "unaware">
+                   <span>0-2000</span>
+                   <span>2000-3900</span>
+                   <span>4000-5999</span>
+                   <span>6000-7999</span>
+                   <span>8000-9999</span>
+                   <span>10000-14999</span>
+                   <span>15000-24999</span>
+                   <span>25000以上</span>
+                </ul>
+            </div>
+            <div id = "particulars2">
+                <strong>根据&nbsp;距离选尺寸</strong>
+                <span class = "possess">全部</span>
+                <ul class = "unaware">
+                    <span>32英寸</span>
+                    <span>40-43英寸</span>
+                    <span>48-50英寸</span>
+                    <span>55-56英寸</span>
+                    <span>60英寸以上</span>
+                </ul>
+            </div>
+            <div id = "particulars3">
+                <strong>根据&nbsp;特色</strong>
+                <span class = "possess">全部</span>
+                <ul class = "unaware">
+                    <span>量子点</span>
+                    <span>曲面屏</span>
+                    <span>高色域</span>
+                    <span>4k超高清</span>
+                    <span>安卓智能</span>
+                    <span>电视配件</span>
+                </ul>
+            </div>
+            <div id = "pendant">﹀</div>
+        </div>
+        
+    </div>
+    <!-- 商品详情上面的粗略选择 -->
+    <div id = "guidance">
+        <a href="commodity.html">综合排序</a>
+        <a href="">销量&nbsp;↓</a>
+        <a href="">价格&nbsp;↑</a>
+    </div>
+
+    <!-- 商品详情()网页主数据    -->
+    <div id = "big">
+        <div id = "center">
+            <!-- <div class = "single">
+                <a href=""><img src="http://img.mall.tcl.com/dev1/0/000/355/0000355394.fid" alt=""></a>
+                <span id = "span1">TCL 50C68 50英寸4K全生态HDR全场景</span>
+                <span id = "span2">TCL 50C68全场景AI全面屏/全生态HDR，4K高清画质3840*2160/存储16GB+2GB/DTS音效后处理/四维场景优化</span>
+                <span id = "span3">4599.00元</span>
+                <span id = "span4"><a class = "a1" href="http://localhost:9808/commodity.html" target = "_blank">立即购买</a></span>
+            </div>     -->
+        </div>
+    </div>
+
+    <div id = "boll"></div>
+
+    <!-- 网页底部 -->
+    <div id = "penult">
+            <div id = "penult1">
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="/pages/service/toHelp.html?hid=1">购物指南</a>
+                        </dd>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="/pages/service/toHelp_pay.html">支付方式</a>
+                        </dd>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="/pages/service/toHelp_send.html">配送方式</a>
+                        </dd>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="/pages/service/toHelp_terms.html">交易条款</a>
+                        </dd>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="/pages/service/toHelp_invoice.html">电子发票</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>服务支持</dt>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="/page/serviceRevision/policy?id=56d4f28d21ca473f871a3b845f61aee9">售后服务</a>
+                        </dd>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="/pages/serviceRevision/repair.html">自助服务</a>
+                        </dd>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="/pages/service-home/index.html#query-wrapper">进度查询</a>
+                        </dd>
+                        <dd>
+                        <a target="_blank" rel="nofollow" href="http://fans.tcl.com/uec/operation">用户体验中心</a>
+                        </dd>
+                        <dd>
+                            <a style="color:red" href="http://www.tcl.com/pages/serviceRevision/autoCheck.html" rel="nofollow" target="_blank">视频教程</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>客户服务</dt>
+                        <dd><a style="color:red" target="_blank" href="http://staff.tcl.com/" rel="nofollow">内购平台</a></dd>
+                        <dd><a target="_blank" href="/pages/bulkpurchase/newBulkpurchase.html" rel="nofollow">企业采购</a></dd>
+                        <dd><a target="_blank" rel="nofollow" href="http://www.tcl.com/dealer/toLogin" rel="nofollow">经销商之家</a></dd>
+                        <dd><a target="_blank" href="http://www.shifendaojia.com/index.html" rel="nofollow">十分到家</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关注我们</dt>
+                        <dd><a target="_blank" rel="nofollow" href="/pages/connectWithUs/connectWithUs.html" rel="nofollow">联系我们</a></dd>
+                        <dd><a target="_blank" rel="nofollow" class="botSina" href="http://weibo.com/tcljituan?topnav=1&wvr=6&topsug=1&is_hot=1">官方微博</a></dd>
+                        <dd><a target="_blank" rel="nofollow" href="http://fans.tcl.com/">铁粉社区</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>应用服务</dt>
+                        <dd><a target="_blank" href="http://www.leiniao.com/" rel="nofollow">雷鸟</a></dd>
+                        <dd><a target="_blank" href="http://www.huan.tv/" rel="nofollow">欢网</a></dd>
+                        <dd><a target="_blank" href="https://jr.tcl.com/home.html" rel="nofollow">金融</a></dd>
+                        <dd><a target="_blank" href="http://www.imooc.com/" rel="nofollow">教育</a></dd>
+                        <dd><a target="_blank" href="http://www.golive-tv.com/" rel="nofollow">全球播</a></dd>
+                        <!--<dd><a target="_blank" href="http://www.tcl-smarthome.com/" rel="nofollow">智能家居</a></dd>-->
+                    </dl>
+                        <dl>
+                        <dt>TCL官网商城</dt>
+                        <dd><img style="height:120px;width:120px;" src="http://www.tcl.com/app/images/wechat.jpg"></dd>
+                    </dl>
+                    <dl class="last-r">
+                        <p class="red">4008-123456</p>
+                        <p class="grey">（24小时在线，仅收市话费）</p>
+                        <a id = "zuobi" href="/pages/service/customerServiceKuyu.html" target="_self" rel="nofollow"><i>&#xe64a;</i>24小时在线客服</a>
+                    </dl>
+            </div>
+       </div>
+    
+       <div id = "basement">
+           <img src="../images/huohu.png" alt="">
+       </div>
+</body>
+</html>

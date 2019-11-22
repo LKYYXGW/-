@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        // var arr = [{
+        //     id:1,
+        //     title:"空调爆款",
+        //     childs:[
+        //         {
+                   
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B5/Ckgbll0VbZ-AX5fmAAA1H4MvVh0499.jpg",
+        //             title:"TCL 大1匹1级能效冷暖变频空调",
+        //             price:98902.12
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B5/Ckgbll0VbZ-AX5fmAAA1H4MvVh0499.jpg",
+        //             title:"TCL 大1匹变频节能冷暖空调",
+        //             price:12345
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B5/Ckgbll0VbZ-AX5fmAAA1H4MvVh0499.jpg",
+        //             title:"TCL 大1.5匹钛金静音冷暖空调",
+        //             price:12345
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B5/Ckgbll0VbZ-AX5fmAAA1H4MvVh0499.jpg",
+        //             title:"TCL 大1.5匹变频1级节能冷暖空调",
+        //             price:92035
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B5/Ckgbll0VbZ-AX5fmAAA1H4MvVh0499.jpg",
+        //             title:"TCL 大2匹除湿钛金柜机空调",
+        //             price:12356
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B5/Ckgbll0VbZ-AX5fmAAA1H4MvVh0499.jpg",
+        //             title:"TCL 大3匹1级能效变频空调",
+        //             price:82345
+        //         },
+        //     ]
+        // }, {
+        //     id:2,
+        //     title:"热销电视",
+        //     childs:[
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/CB/Ckgbll1V_IOAFxPLAACs12UIv2o134.png",
+        //             title:"65英寸 65Q8全场景AI电视",
+        //             price:13456
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/CB/Ckgbll1V_IOAFxPLAACs12UIv2o134.png",
+        //             title:"XESS 65A100H 65英寸 装饰美学 浮窗全场景TV",
+        //             price:12348
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/CB/Ckgbll1V_IOAFxPLAACs12UIv2o134.png",
+        //             title:"85X6C 85英寸私人影院平面电视",
+        //             price:83765
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/CB/Ckgbll1V_IOAFxPLAACs12UIv2o134.png",
+        //             title:"65Q2 65英寸旗舰新剧院电视",
+        //             price:3745
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/CB/Ckgbll1V_IOAFxPLAACs12UIv2o134.png",
+        //             title:"TCL 75V2英寸AI超智慧巨幕4k电视",
+        //             price:12345
+        //         },
+        //         {
+                    
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/CB/Ckgbll1V_IOAFxPLAACs12UIv2o134.png",
+        //             title:"65T6 65英寸全场景AI人工智能电视",
+        //             price:19834
+        //         },
+                
+        //     ]
+        // }, {
+        //     id:3,
+        //     title:"人气冰箱",
+        //     childs:[
+        //         {
+        //             title:"TCL163双门节能家用小冰箱",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B0/Ckgbll0LnMyATWJJAAAaMZxnQUA705.png",
+        //             price:123592
+        //         },
+        //         {
+        //             title:"TCL456L对开门宽薄家用冰箱",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkG6AZAvNAABdm8tQUUk315.png",
+        //             price:123592
+        //         },{
+        //             title:"TCL205L三门节能静音冰箱",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkG6AZAvNAABdm8tQUUk315.png",
+        //             price:123592
+        //         },
+        //         {
+        //             title:"TCL 285L法式多门变频冰箱",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkG6AZAvNAABdm8tQUUk315.png",
+        //             price:123592
+        //         },
+        //         {
+        //             title:"TCL 515L对开门风冷无霜冰箱",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkG6AZAvNAABdm8tQUUk315.png",
+        //             price:123592
+        //         },
+        //         {
+        //             title:"TCL410升T行对开门风冷养鲜",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkG6AZAvNAABdm8tQUUk315.png",
+        //             price:123592
+        //         }
+        //     ]
+
+        // } , {
+        //     id:4,
+        //     title:"品质洗衣机",
+        //     childs:[
+        //         {
+        //             title:"TCL九公斤变频滚筒洗衣机",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png",
+        //             price:23456
+        //         },
+        //         {
+        //             title:"TCL九公斤变频滚筒洗衣机",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png",
+        //             price:23456
+        //         },
+        //         {
+        //             title:"TCL九公斤变频滚筒洗衣机",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png",
+        //             price:23456
+        //         },
+        //         {
+        //             title:"TCL九公斤变频滚筒洗衣机",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png",
+        //             price:23456
+        //         },
+        //         {
+        //             title:"TCL九公斤变频滚筒洗衣机",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png",
+        //             price:23456
+        //         },
+        //         {
+        //             title:"TCL九公斤变频滚筒洗衣机",
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BF/Ckgbll0xkJaAWEc6AABUaOzqAlo895.png",
+        //             price:23456
+        //         },
+                
+        //     ]
+
+        // },{
+        //     id:5,
+        //     title:"厨卫电器",
+        //     childs:[
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B0/Ckgbll0LnQGAKpQXAAAlJt2uz38041.png",
+        //             title:"TCl KJ 206F-A301净化器",
+        //             price:849.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B0/Ckgbll0LnQGAKpQXAAAlJt2uz38041.png",
+        //             title:"TCl KJ 206F-A301净化器",
+        //             price:849.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B0/Ckgbll0LnQGAKpQXAAAlJt2uz38041.png",
+        //             title:"TCl KJ 206F-A301净化器",
+        //             price:849.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B0/Ckgbll0LnQGAKpQXAAAlJt2uz38041.png",
+        //             title:"TCl KJ 206F-A301净化器",
+        //             price:849.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B0/Ckgbll0LnQGAKpQXAAAlJt2uz38041.png",
+        //             title:"TCl KJ 206F-A301净化器",
+        //             price:849.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/B0/Ckgbll0LnQGAKpQXAAAlJt2uz38041.png",
+        //             title:"TCl KJ 206F-A301净化器",
+        //             price:849.00
+        //         }
+        //     ]
+        // }, {
+        //     id:6,
+        //     title:"XESS浮窗电视",
+        //     childs:[
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O2P6ABknSAACcXZaZBnE698.png",
+        //             title:"XESS 65A100T 65英寸 新造型美学 浮窗全场景TV",
+        //             price:19999.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O2P6ABknSAACcXZaZBnE698.png",
+        //             title:"XESS 65A100T 65英寸 新造型美学 浮窗全场景TV",
+        //             price:19999.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O2P6ABknSAACcXZaZBnE698.png",
+        //             title:"XESS 65A100T 65英寸 新造型美学 浮窗全场景TV",
+        //             price:19999.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O2P6ABknSAACcXZaZBnE698.png",
+        //             title:"XESS 65A100T 65英寸 新造型美学 浮窗全场景TV",
+        //             price:19999.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O2P6ABknSAACcXZaZBnE698.png",
+        //             title:"XESS 65A100T 65英寸 新造型美学 浮窗全场景TV",
+        //             price:19999.00
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O2P6ABknSAACcXZaZBnE698.png",
+        //             title:"XESS 65A100T 65英寸 新造型美学 浮窗全场景TV",
+        //             price:19999.00
+        //         }
+        //     ]
+        // }, {
+        //     id:7,
+        //     title:"配件周边",
+        //     childs:[
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4FA2AbkqAAAAd5SlwKt8217.png",
+        //             title:"电视原装挂架 WMB333",
+        //             price:68.00 
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4FA2AbkqAAAAd5SlwKt8217.png",
+        //             title:"电视原装挂架 WMB333",
+        //             price:68.00 
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4FA2AbkqAAAAd5SlwKt8217.png",
+        //             title:"电视原装挂架 WMB333",
+        //             price:68.00 
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4FA2AbkqAAAAd5SlwKt8217.png",
+        //             title:"电视原装挂架 WMB333",
+        //             price:68.00 
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4FA2AbkqAAAAd5SlwKt8217.png",
+        //             title:"电视原装挂架 WMB333",
+        //             price:68.00 
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4FA2AbkqAAAAd5SlwKt8217.png",
+        //             title:"电视原装挂架 WMB333",
+        //             price:68.00 
+        //         },
+        //     ]
+        // }];
+
+        // var str = JSON.stringify(arr);
+        // document.write(str);
+
+        // var sum = [{
+
+            
+                
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/BA/Ckgbll0i5TWAP7JeAABAQhKzWms449.jpg",
+        //             title:"TCL大3匹三级变频冷暖空调",
+        //             price:"4299.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_dvKAZo8AAAA8EMijr8A215.png",
+        //             title:"TCL大2匹除湿钛金柜机空调",
+        //             price:"2899.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/AE/Ckgbll0JD2iAS79aAAA5F_sw1K8459.jpg",
+        //             title:"TCL大一匹钛金金银冷暖空调",
+        //             price:"1449.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp9vmAF-NpAAA86w_lT4U310.jpg",
+        //             title:"TCL大1匹1级能效冷暖变频空调",
+        //             price:"2299.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/AE/Ckgbll0JD4qAMOCjAAApLwvlWVk684.jpg",
+        //             title:"TCL大1.5匹变频1级节能冷暖",
+        //             price:"1999.00元"
+        //         },
+            
+            
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3TWALH3kAADTuHJx2RM918.jpg",
+        //             title:"XESS 65A100T 65英寸 新造",
+        //             price:"19999.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3TWALH3kAADTuHJx2RM918.jpg",
+        //             title:"XESS 65A100T 65英寸 新造",
+        //             price:"19999.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3TWALH3kAADTuHJx2RM918.jpg",
+        //             title:"XESS 65A100T 65英寸 新造",
+        //             price:"19999.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3TWALH3kAADTuHJx2RM918.jpg",
+        //             title:"XESS 65A100T 65英寸 新造",
+        //             price:"19999.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3TWALH3kAADTuHJx2RM918.jpg",
+        //             title:"XESS 65A100T 65英寸 新造",
+        //             price:"19999.00元"
+        //         },
+           
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_eemARdUTAABRQsgcw0g233.jpg",
+        //             title:"TCL519对开门风冷无霜冰箱",
+        //             price:"2499.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_eemARdUTAABRQsgcw0g233.jpg",
+        //             title:"TCL519对开门风冷无霜冰箱",
+        //             price:"2499.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_eemARdUTAABRQsgcw0g233.jpg",
+        //             title:"TCL519对开门风冷无霜冰箱",
+        //             price:"2499.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_eemARdUTAABRQsgcw0g233.jpg",
+        //             title:"TCL519对开门风冷无霜冰箱",
+        //             price:"2499.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_eemARdUTAABRQsgcw0g233.jpg",
+        //             title:"TCL519对开门风冷无霜冰箱",
+        //             price:"2499.00元"
+        //         },
+         
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_fDGAG2KzAACDYcXDNps542.jpg",
+        //             title:"TCL9公斤变频滚筒洗衣机",
+        //             price:"1499.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_fDGAG2KzAACDYcXDNps542.jpg",
+        //             title:"TCL9公斤变频滚筒洗衣机",
+        //             price:"1499.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_fDGAG2KzAACDYcXDNps542.jpg",
+        //             title:"TCL9公斤变频滚筒洗衣机",
+        //             price:"1499.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_fDGAG2KzAACDYcXDNps542.jpg",
+        //             title:"TCL9公斤变频滚筒洗衣机",
+        //             price:"1499.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_fDGAG2KzAACDYcXDNps542.jpg",
+        //             title:"TCL9公斤变频滚筒洗衣机",
+        //             price:"1499.00元"
+        //         },
+           
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp_zCAb70IAABN14fJWlM330.jpg",
+        //             title:"TCL嵌入式智能烘干消毒柜",
+        //             price:"849.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp_zCAb70IAABN14fJWlM330.jpg",
+        //             title:"TCL嵌入式智能烘干消毒柜",
+        //             price:"849.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp_zCAb70IAABN14fJWlM330.jpg",
+        //             title:"TCL嵌入式智能烘干消毒柜",
+        //             price:"849.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp_zCAb70IAABN14fJWlM330.jpg",
+        //             title:"TCL嵌入式智能烘干消毒柜",
+        //             price:"849.00元"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp_zCAb70IAABN14fJWlM330.jpg",
+        //             title:"TCL嵌入式智能烘干消毒柜",
+        //             price:"849.00元"
+        //         },
+          
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+        //             title:"XESS智能v脸射频美容仪BR-1",
+        //             price:"2499.00"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+        //             title:"XESS智能v脸射频美容仪BR-1",
+        //             price:"2499.00"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+        //             title:"XESS智能v脸射频美容仪BR-1",
+        //             price:"2499.00"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+        //             title:"XESS智能v脸射频美容仪BR-1",
+        //             price:"2499.00"
+        //         },
+        //         {
+        //             img:"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+        //             title:"XESS智能v脸射频美容仪BR-1",
+        //             price:"2499.00"
+        //         }
+            
+        // ]
+        // var str = JSON.stringify(sum);
+        // document.write(str);
+        //     id:1
+        //     title:"空调爆款",
+        //     childs:[
+        //         {
+        //             title:"TCL 大1匹1级能效冷暖变频空调",
+        //             img:"tcl.img/tcltupian/tcl冰箱官网-tcl洗衣机官网-tcl洗衣机怎么样-铁粉社区-TCL冰洗论坛官网/0036.jpg"
+        //         },
+        //         {
+        //             title:"TCL 大1匹变频节能冷暖空调",
+        //             img:"tcl.img/tcltupian/tcl冰箱官网-tcl洗衣机官网-tcl洗衣机怎么样-铁粉社区-TCL冰洗论坛官网/0036.jpg"
+        //         },
+        //         {
+        //             title:"TCL 大1.5匹钛金静音冷暖空调",
+        //             img:"tcl.img/tcltupian/tcl冰箱官网-tcl洗衣机官网-tcl洗衣机怎么样-铁粉社区-TCL冰洗论坛官网/0036.jpg"
+        //         },
+        //         {
+        //             title:"TCL 大1.5匹变频1级节能冷暖空调",
+        //             img:"tcl.img/tcltupian/tcl冰箱官网-tcl洗衣机官网-tcl洗衣机怎么样-铁粉社区-TCL冰洗论坛官网/0036.jpg"
+        //         },
+        //         {
+        //             title:"TCL 大2匹除湿钛金柜机空调",
+        //             img:"tcl.img/tcltupian/tcl冰箱官网-tcl洗衣机官网-tcl洗衣机怎么样-铁粉社区-TCL冰洗论坛官网/0036.jpg"
+        //         },
+        //         {
+        //             title:"TCL 大3匹1级能效变频空调",
+        //             img:"tcl.img/tcltupian/tcl冰箱官网-tcl洗衣机官网-tcl洗衣机怎么样-铁粉社区-TCL冰洗论坛官网/0036.jpg"
+        //         },
+        //     ]
+        // }
+        var sun = [
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/AA/Ckgbll0DNvCAR4O9AABl78gbUEc488.jpg",
+        "h":"电视",
+        "child":[
+            {"a":"AI"},
+            {"a":"XESS浮窗电视"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/BD/Ckgbll0tbTKAHwmwAABHJxByjJw732.jpg",
+        "h":"空调",
+        "child":[
+            {"a":"1匹"},
+            {"a":"1.5匹"},
+            {"a":"柜机"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/8D/Ckgblly5oSaAauk-AACCyVunUds794.jpg",
+        "h":"冰箱",
+        "child":[
+            {"a":"双门"},
+            {"a":"三门"},
+            {"a":"多门"},
+            {"a":"对开门"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/94/CkgbllzOVN-AO_bqAAB3X_vNDak139.jpg",
+        "h":"洗衣机",
+        "child":[
+            {"a":"波轮"},
+            {"a":"滚筒"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/68/CkgbllxQD2yAIkBrAABwL0uNWAk459.jpg",
+        "h":"厨房电器",
+        "child":[
+            {"a":"油烟机"},
+            {"a":"燃气灶"},
+            {"a":"热水器"},
+            {"a":"风扇"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/95/CkgbllzSplOAHMHXAAIJmbhuW9c761.jpg",
+        "h":"智能配件",
+        "child":[
+            {"a":"美妆个护"},
+            {"a":"耳机"},
+            {"a":"智能门锁"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    }
+]
+        var sum = JSON.stringify(sun);
+        document.write(sum);
+    </script>
+</head>
+<body>
+   
+</body>
+</html>
