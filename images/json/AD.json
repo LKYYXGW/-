@@ -1,0 +1,290 @@
+[
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/AA/Ckgbll0DNvCAR4O9AABl78gbUEc488.jpg",
+        "h":"电视",
+        "child":[
+            {"a":"AI"},
+            {"a":"XESS浮窗电视"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/BD/Ckgbll0tbTKAHwmwAABHJxByjJw732.jpg",
+        "h":"空调",
+        "child":[
+            {"a":"1匹"},
+            {"a":"1.5匹"},
+            {"a":"柜机"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/8D/Ckgblly5oSaAauk-AACCyVunUds794.jpg",
+        "h":"冰箱",
+        "child":[
+            {"a":"双门"},
+            {"a":"三门"},
+            {"a":"多门"},
+            {"a":"对开门"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/94/CkgbllzOVN-AO_bqAAB3X_vNDak139.jpg",
+        "h":"洗衣机",
+        "child":[
+            {"a":"波轮"},
+            {"a":"滚筒"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/68/CkgbllxQD2yAIkBrAABwL0uNWAk459.jpg",
+        "h":"厨房电器",
+        "child":[
+            {"a":"油烟机"},
+            {"a":"燃气灶"},
+            {"a":"热水器"},
+            {"a":"风扇"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    },
+    {
+        "left":"http://s0.mall.tcl.com/group1/M00/05/95/CkgbllzSplOAHMHXAAIJmbhuW9c761.jpg",
+        "h":"智能配件",
+        "child":[
+            {"a":"美妆个护"},
+            {"a":"耳机"},
+            {"a":"智能门锁"},
+            {"a":"更多"}
+        ],
+        "oli":[
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqlCABZZEAACl02h1Vrc075.png",
+                "title":"TCL 75V2 75英寸AI超智慧巨幕4K电视",
+                "title2":"TCL 75V2 75英寸大屏/95.9%屏占比/AI人工智能语音",
+                "money":"4999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uql6ANcpZAACRVHj7Jvo843.png",
+                "title":"65Q2 65英寸旗舰新剧院电视",
+                "title2":"TCL 65Q2 无边框全面屏/哈曼卡顿音响/6.9mm超纤薄",
+                "money":"6599.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqoeABzoDAACH-53bGzo741.png",
+                "title":"55T6 55吋全场景AI人工智能电视",
+                "title2":"免遥控24h随时唤醒/场景自动识别",
+                "money":"2999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqpaAJdd5AADKRhgYA4Q794.png",
+                "title":"TCL 55V2 55英寸护眼全面屏电视",
+                "title2":"TCL 55V2 超轻薄机身/防蓝光模式",
+                "money":"1899.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/D1/Ckgbll1ri0mAIO-cAACcXZaZBnE898.png",
+                "title":"XESS 65英寸 装饰美学 浮窗全场景TV",
+                "title2":"QLED原色量子点/XESS浮窗电视",
+                "money":"19999.00 元"
+            },
+            {
+                "img":"http://s0.mall.tcl.com/group1/M00/05/E5/Ckgbll2uqqqALbT6AACOszFilp4450.png",
+                "title":"55Q8 55英寸全场景AI电视",
+                "title2":"旗舰画质/全场景AI",
+                "money":"3999.00 元"
+            }
+        ]
+    }
+]

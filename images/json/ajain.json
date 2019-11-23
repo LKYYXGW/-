@@ -1,0 +1,155 @@
+[
+    {
+        "title":"首页"
+    },
+    {
+        "title":"空调",
+        "child":[
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/BA/Ckgbll0i5TWAP7JeAABAQhKzWms449.jpg",
+                "title":"TCL大3匹三级变频冷暖空调",
+                "price":"4399.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_dvKAZo8AAAA8EMijr8A215.png",
+                "title":"TCL大2匹除湿钛金柜机空调",
+                "price":"2999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/AE/Ckgbll0JD2iAS79aAAA5F_sw1K8459.jpg",
+                "title":"TCL大1匹钛金静音冷暖空调",
+                "price":"1499.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp9vmAF-NpAAA86w_lT4U310.jpg",
+                "title":"TCL大1匹1级能效冷暖变频空",
+                "price":"2499.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/AE/Ckgbll0JD4qAMOCjAAApLwvlWVk684.jpg",
+                "title":"TCL大1.5匹变频1级节能冷暖",
+                "price":"2099.00元"
+            }
+        ]
+    },
+    {
+        "title":"电视",
+        "child":[
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3TWALH3kAADTuHJx2RM918.jpg",
+                "title":"XESS 65A100T 65英寸 新造",
+                "price":"19999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/C9/Ckgbll1O3VKAVwTzAADZQV78_Hg701.jpg",
+                "title":"XESS 55A 100U 55英寸 东方",
+                "price":"11999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_di6AZ9SnAADx2RpkBmc451.jpg",
+                "title":"75A950U 75英寸哈曼卡顿巨",
+                "price":"8999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/AF/Ckgbll0KDByATMtqABx4Sv_1Q_A601.png",
+                "title":"65T6 65英寸全场景AI人工智",
+                "price":"3999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/AF/Ckgbll0KDGGAUR59ACA3_I_davE426.png",
+                "title":"55Q2 55英寸旗舰新剧院电视",
+                "price":"5499.00元"
+            }
+        ]
+    },
+    {
+        "title":"冰箱",
+        "child":[
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/A6/Ckgbllz_eemARdUTAABRQsgcw0g233.jpg",
+                "title":"TCL519L对开门风冷无霜冰箱",
+                "price":"3599.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/BE/Ckgbll0xh76ABhmyAABX8cQvXKo630.jpg",
+                "title":"TCL410升T形对开门风冷养鲜",
+                "price":"2499.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/BE/Ckgbll0xh8KAOn21AAA6_KagK9k211.jpg",
+                "title":"TCL288L三门风冷无霜冰箱",
+                "price":"2049.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp-XGAGM1zAABRXmi4nVE379.jpg",
+                "title":"TCL205L三门节能静音冰箱",
+                "price":"1199.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/9D/Ckgbllzp-XGAGM1zAABRXmi4nVE379.jpg",
+                "title":"TCL163L双门节能家用小冰箱",
+                "price":"1049.00元"
+            }
+        ]
+    },
+    {
+        "title":"洗衣机",
+        "child":[
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/BE/Ckgbll0xhrWAc2RsAACsnuSfX6Q232.jpg",
+                "title":"TCL9公斤全自动波轮洗衣机",
+                "price":"1999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/BE/Ckgbll0xhrWAc2RsAACsnuSfX6Q232.jpg",
+                "title":"TCL9公斤全自动波轮洗衣机",
+                "price":"859.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/BE/Ckgbll0xhrWAc2RsAACsnuSfX6Q232.jpg",
+                "title":"TCL9公斤全自动波轮洗衣机",
+                "price":"859.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/BE/Ckgbll0xhrWAc2RsAACsnuSfX6Q232.jpg",
+                "title":"TCL9公斤全自动波轮洗衣机",
+                "price":"859.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/BE/Ckgbll0xhrWAc2RsAACsnuSfX6Q232.jpg",
+                "title":"TCL9公斤全自动波轮洗衣机",
+                "price":"859.00元"
+            }
+        ]
+    },
+    {
+        "title":"健康电器",
+        "child":[
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8D/Ckgblly5Z_uAXI5ZAACPlsI652E279.jpg",
+                "title":"TCL 3626J+5602B液化气烟",
+                "price":"1999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8D/Ckgblly5Z_uAXI5ZAACPlsI652E279.jpg",
+                "title":"TCL 3626J+5602B液化气烟",
+                "price":"1999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8D/Ckgblly5Z_uAXI5ZAACPlsI652E279.jpg",
+                "title":"TCL 3626J+5602B液化气烟",
+                "price":"1999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8D/Ckgblly5Z_uAXI5ZAACPlsI652E279.jpg",
+                "title":"TCL 3626J+5602B液化气烟",
+                "price":"1999.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8D/Ckgblly5Z_uAXI5ZAACPlsI652E279.jpg",
+                "title":"TCL 3626J+5602B液化气烟",
+                "price":"1999.00元"
+            }
+        ]
+    },
+    {
+        "title":"智能硬件",
+        "child":[
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+                "title":"XESS智能V脸射频美容仪BR-1",
+                "price":"2499.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+                "title":"XESS智能V脸射频美容仪BR-1",
+                "price":"2499.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+                "title":"XESS智能V脸射频美容仪BR-1",
+                "price":"2499.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+                "title":"XESS智能V脸射频美容仪BR-1",
+                "price":"2499.00元"
+            },
+            {   "img":"http://s0.mall.tcl.com/group1/M00/05/8C/Ckgblly4JOiAA9WuAAA9a49KrcA840.jpg",
+                "title":"XESS智能V脸射频美容仪BR-1",
+                "price":"2499.00元"
+            }
+        ]
+    }
+]

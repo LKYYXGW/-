@@ -1,0 +1,378 @@
+#header {
+  width: 100%;
+  height: 40px;
+  background: #666666;
+  padding: 10px 97px;
+  position: relative; }
+  #header #ul1 li {
+    float: left; }
+    #header #ul1 li a {
+      margin-right: 42px;
+      font-size: 12px;
+      color: #cccccc; }
+  #header #ul2 {
+    float: right; }
+    #header #ul2 li {
+      float: left; }
+      #header #ul2 li a {
+        border-right: 1px solid #cccccc;
+        padding: 0 14px;
+        color: #cccccc; }
+  #header #header-RQ {
+    display: none;
+    position: absolute;
+    left: 1150px;
+    top: 40px;
+    z-index: 6; }
+    #header #header-RQ .div1 {
+      width: 80px;
+      height: 40px;
+      margin: 0 auto; }
+      #header #header-RQ .div1 .p1 {
+        font-size: 10px;
+        line-height: 160%; }
+
+#header .ul2 #a1 {
+  border: none; }
+
+#navigation {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  padding: 0 77px; }
+  #navigation a {
+    float: left;
+    margin-top: 17px; }
+  #navigation #navigationul1 {
+    float: left;
+    margin-left: 117px;
+    margin-top: 18px;
+    text-align: center;
+    width: 550px; }
+    #navigation #navigationul1 #Under {
+      width: 0px;
+      height: 0px;
+      background: red;
+      position: absolute;
+      bottom: 0px; }
+    #navigation #navigationul1 .start {
+      width: 89px;
+      float: left;
+      padding: 0 16px 0 17px;
+      font-size: 14px;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      cursor: pointer; }
+      #navigation #navigationul1 .start .startdiv {
+        width: 1915px;
+        height: 230px;
+        position: fixed;
+        left: 0;
+        padding: 0 135px 0 135px;
+        display: none;
+        z-index: 1;
+        background: white; }
+        #navigation #navigationul1 .start .startdiv .startul {
+          z-index: 1;
+          text-align: center;
+          width: 200px;
+          height: 230px;
+          float: left;
+          margin-left: 10px; }
+          #navigation #navigationul1 .start .startdiv .startul li:nth-of-type(1) {
+            width: 200px;
+            height: 160px; }
+            #navigation #navigationul1 .start .startdiv .startul li:nth-of-type(1) img {
+              width: 100%;
+              height: 100%; }
+          #navigation #navigationul1 .start .startdiv .startul li:nth-of-type(2) {
+            width: 200px;
+            height: 20px; }
+          #navigation #navigationul1 .start .startdiv .startul li:nth-of-type(3) {
+            width: 200px;
+            height: 20px;
+            color: red;
+            font-weight: 900; }
+  #navigation #navigationul2 {
+    float: right;
+    margin: auto 0;
+    line-height: 80px; }
+    #navigation #navigationul2 #leftB {
+      margin-left: 10px; }
+    #navigation #navigationul2 #query {
+      position: relative;
+      text-align: center; }
+      #navigation #navigationul2 #query i {
+        display: block;
+        position: absolute;
+        right: 12px;
+        top: 1px;
+        width: 28px;
+        height: 32px; }
+    #navigation #navigationul2 li {
+      float: left;
+      padding: 0 10px; }
+      #navigation #navigationul2 li span {
+        float: left; }
+      #navigation #navigationul2 li a {
+        margin-top: 0;
+        font-size: 14px; }
+      #navigation #navigationul2 li input {
+        width: 233px;
+        height: 33px; }
+
+#title {
+  width: 100%;
+  height: 50px;
+  font-size: 100%;
+  line-height: 50px;
+  color: #666;
+  background: #f0f0f0;
+  padding: 0 146px 0 146px; }
+
+#big {
+  width: 1226px;
+  height: 660px;
+  margin: 0 auto;
+  position: relative; }
+
+#picture {
+  width: 660px;
+  height: 640px;
+  padding: 0 70px 0 70px; }
+  #picture #bigpicture {
+    width: 520px;
+    height: 520px;
+    position: relative; }
+    #picture #bigpicture img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      opacity: 0; }
+    #picture #bigpicture #imgs {
+      opacity: 1; }
+    #picture #bigpicture #shade {
+      width: 166px;
+      height: 166px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: black;
+      opacity: 0.3;
+      display: none; }
+  #picture #switchover {
+    width: 520px;
+    height: 100px;
+    margin-top: 20px;
+    text-align: center; }
+    #picture #switchover span {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      margin: 0 5px;
+      border: 2px solid #ccc; }
+      #picture #switchover span img {
+        width: 50px;
+        height: 50px;
+        vertical-align: middle; }
+    #picture #switchover span:nth-of-type(1) {
+      border: 2px solid red; }
+
+#magnifying {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 750px;
+  top: 280px;
+  overflow: hidden;
+  display: none; }
+  #magnifying img {
+    width: 1260px;
+    height: 1260px;
+    position: absolute;
+    left: 0;
+    top: 0; }
+
+#price {
+  width: 521px;
+  height: 640px;
+  position: absolute;
+  left: 705px;
+  top: 0px; }
+  #price h1:nth-of-type(1) {
+    font-weight: 900;
+    color: black;
+    width: 521px;
+    height: 79.2px;
+    padding: 0 0 20px 0; }
+  #price .smallright {
+    width: 100%;
+    height: 18.4px;
+    position: relative;
+    color: #a2a2a2; }
+    #price .smallright p:nth-of-type(1) {
+      height: 18.4px;
+      font-size: 12px;
+      line-height: 18.4px;
+      width: 80%; }
+    #price .smallright span {
+      position: absolute;
+      top: 0;
+      right: 0;
+      line-height: 18.4px;
+      font-size: 12px; }
+  #price .integral {
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+    color: #a2a2a2; }
+  #price .bigprice {
+    width: 521px;
+    height: 80.4px;
+    padding: 22px 0 22px 0;
+    border-bottom: 1px solid #a2a2a2; }
+    #price .bigprice span:nth-of-type(1) {
+      font-size: 14px;
+      font-weight: 900;
+      color: black;
+      width: auto;
+      height: auto;
+      letter-spacing: 0.5em; }
+    #price .bigprice span:nth-of-type(2) {
+      font-size: 30px;
+      color: red;
+      letter-spacing: 0em; }
+      #price .bigprice span:nth-of-type(2) i {
+        font-size: 15px;
+        margin-left: 0px; }
+    #price .bigprice span:nth-of-type(3) {
+      font-size: 12px;
+      float: right;
+      line-height: 40px; }
+  #price .select {
+    width: 521px;
+    height: 158px;
+    padding: 22px 0 22px 0;
+    border-bottom: 1px solid #ccc; }
+    #price .select div:nth-of-type(1) {
+      width: 521px;
+      height: 19px; }
+    #price .select div:nth-of-type(2) {
+      width: 521px;
+      height: 74px; }
+      #price .select div:nth-of-type(2) span {
+        margin-top: 20px;
+        margin-right: 8px;
+        display: inline-block;
+        width: 145.88px;
+        height: 64px;
+        text-align: center;
+        line-height: 64px;
+        border: 1px solid #ccc; }
+  #price .purchase {
+    height: 113px;
+    width: 521px;
+    padding: 22px 0 22px 0;
+    border-bottom: 1px solid #ccc; }
+    #price .purchase .regulation {
+      width: 88px;
+      height: 64px;
+      float: left; }
+      #price .purchase .regulation .quantity {
+        height: 64px;
+        width: 56px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 56px;
+        border: 1px solid #ccc;
+        float: left; }
+    #price .purchase .option {
+      width: 32px;
+      height: 64px;
+      float: right;
+      text-align: center;
+      border: 1px solid #ccc; }
+      #price .purchase .option span:nth-of-type(1) {
+        display: inline-block;
+        margin-top: 12px;
+        width: 32px;
+        height: 20px;
+        cursor: pointer; }
+      #price .purchase .option span:nth-of-type(2) {
+        display: inline-block;
+        margin-bottom: 12px;
+        width: 32px;
+        height: 20px;
+        cursor: pointer; }
+    #price .purchase .order {
+      width: 194px;
+      height: 62px;
+      background: red;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      line-height: 64px;
+      float: left;
+      margin-left: 5px; }
+    #price .purchase .place {
+      width: 194px;
+      height: 62px;
+      background: white;
+      color: red;
+      font-size: 18px;
+      text-align: center;
+      line-height: 64px;
+      float: left;
+      border: 1px solid red;
+      margin-left: 5px; }
+  #price .site {
+    width: 521px;
+    height: 58.6px;
+    padding: 22px 0 10px 0;
+    color: #666;
+    font-size: 12px; }
+  #price .explain {
+    width: 521px;
+    height: 32px;
+    font-size: 12px;
+    padding: 0 0 20px 0;
+    color: #999; }
+  #price .conceal {
+    width: 560px;
+    height: 0;
+    display: block;
+    position: absolute;
+    padding: 15px;
+    border: 1px solid #ccc;
+    display: none; }
+    #price .conceal .concealdiv {
+      width: 528px;
+      height: 30px;
+      position: absolute;
+      border-bottom: 1px solid #ccc; }
+      #price .conceal .concealdiv span {
+        display: inline-block;
+        width: 70px;
+        height: 23px;
+        border: 1px solid #ccc;
+        margin-right: 1px;
+        padding: 0 21px 1px 11px;
+        font-size: 12px;
+        line-height: 23px;
+        text-align: center;
+        margin-top: 7px; }
+    #price .conceal .particular {
+      width: 528px;
+      height: 207.6px; }
+      #price .conceal .particular .particularul {
+        margin-top: 30px;
+        width: 120px;
+        height: 177.6px;
+        float: left; }
+        #price .conceal .particular .particularul li {
+          width: 120px;
+          height: 29.6px;
+          padding: 2px 0 2px 15px;
+          margin-top: 5px; }
